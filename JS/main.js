@@ -3,7 +3,7 @@ const allCircuts = document.querySelector(".circuts");
 
 // Circuts From JSON
 let myReq = new XMLHttpRequest();
-myReq.open("GET", "../circuits.json");
+myReq.open("GET", "../JS/circuits.json");
 myReq.send();
 myReq.onreadystatechange = function () {
     if (this.readyState === 4 && this.status === 200) {
