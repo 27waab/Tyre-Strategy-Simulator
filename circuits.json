@@ -1,142 +1,82 @@
 [
     {
         "id": "suzuka",
-        "name": "حلبة سوزوكا",
+        "name": "سوزوكا",
         "country": "اليابان",
         "flag": "IMG/falgs/Japan.svg",
         "year": 1962,
         "length_km": 5.807,
         "laps": 53,
-        "tireDegradation": "عالي",
         "avgLapTimeSec": 95,
-        "pitStopTimeSec": 22,
-        "weatherOptions": ["مشمس", "ماطر", "بارد", "حار", "متقلب"],
+        "estimatedStops": 2,
         "themeColors": ["#ffffff", "#bc002d"],
-        "weatherImpact": {
-            "مشمس": 1,
-            "ماطر": 1.12,
-            "بارد": 1.05,
-            "حار": 1.03,
-            "متقلب": 1.15
-        },
-        "tireTypes": {
-            "soft": { "name": "سوفت", "speedFactor": 1.0, "degradationRate": "سريع" },
-            "medium": { "name": "ميديم", "speedFactor": 0.97, "degradationRate": "متوسط" },
-            "hard": { "name": "هارد", "speedFactor": 0.94, "degradationRate": "بطيء" },
-            "intermediate": { "name": "إنترمديت", "speedFactor": 0.90, "degradationRate": "مخصص للأمطار الخفيفة" },
-            "wet": { "name": "ويت", "speedFactor": 0.85, "degradationRate": "مخصص للأمطار الغزيرة" }
+        "weatherOptions": ["عادي", "مطر خفيف", "مطر غزير"],
+        "tires": {
+            "soft": { "speed": 1.00, "lifespan": 12, "wearRate": 1.0, "allowedWeather": ["عادي"] },
+            "medium": { "speed": 0.97, "lifespan": 20, "wearRate": 0.85, "allowedWeather": ["عادي"] },
+            "hard": { "speed": 0.94, "lifespan": 30, "wearRate": 0.7, "allowedWeather": ["عادي"] },
+            "intermediate": { "speed": 0.89, "lifespan": 18, "wearRate": 0.8, "allowedWeather": ["مطر خفيف"] },
+            "wet": { "speed": 0.85, "lifespan": 15, "wearRate": 0.75, "allowedWeather": ["مطر غزير"] }
         }
     },
     {
         "id": "jeddah",
-        "name": "حلبة جدة",
+        "name": "جدة",
         "country": "السعودية",
         "flag": "IMG/falgs/Saudi_Arabia.svg",
         "year": 2021,
         "length_km": 6.174,
         "laps": 50,
-        "tireDegradation": "منخفض",
-        "avgLapTimeSec": 88,
-        "pitStopTimeSec": 21,
-        "weatherOptions": ["مشمس", "حار", "بارد", "ماطر", "متقلب"],
+        "avgLapTimeSec": 91,
+        "estimatedStops": 2,
         "themeColors": ["#008000", "#ffffff"],
-        "weatherImpact": {
-            "مشمس": 1,
-            "ماطر": 1.1,
-            "بارد": 1.03,
-            "حار": 1.02,
-            "متقلب": 1.12
-        },
-        "tireTypes": {
-            "soft": { "name": "سوفت", "speedFactor": 1.0, "degradationRate": "سريع" },
-            "medium": { "name": "ميديم", "speedFactor": 0.97, "degradationRate": "متوسط" },
-            "hard": { "name": "هارد", "speedFactor": 0.94, "degradationRate": "بطيء" },
-            "intermediate": { "name": "إنترمديت", "speedFactor": 0.90, "degradationRate": "مخصص للأمطار الخفيفة" },
-            "wet": { "name": "ويت", "speedFactor": 0.85, "degradationRate": "مخصص للأمطار الغزيرة" }
+        "weatherOptions": ["عادي", "مطر خفيف", "مطر غزير"],
+        "tires": {
+            "soft": { "speed": 1.00, "lifespan": 10, "wearRate": 1.0, "allowedWeather": ["عادي"] },
+            "medium": { "speed": 0.97, "lifespan": 18, "wearRate": 0.9, "allowedWeather": ["عادي"] },
+            "hard": { "speed": 0.94, "lifespan": 28, "wearRate": 0.75, "allowedWeather": ["عادي"] },
+            "intermediate": { "speed": 0.88, "lifespan": 16, "wearRate": 0.82, "allowedWeather": ["مطر خفيف"] },
+            "wet": { "speed": 0.84, "lifespan": 14, "wearRate": 0.78, "allowedWeather": ["مطر غزير"] }
         }
     },
     {
         "id": "monza",
-        "name": "حلبة مونزا",
+        "name": "مونزا",
         "country": "إيطاليا",
         "flag": "IMG/falgs/Italy.svg",
         "year": 1922,
         "length_km": 5.793,
         "laps": 53,
-        "tireDegradation": "متوسط",
-        "avgLapTimeSec": 80,
-        "pitStopTimeSec": 18,
-        "weatherOptions": ["مشمس", "ماطر", "بارد", "حار", "متقلب"],
+        "avgLapTimeSec": 82,
+        "estimatedStops": 1,
         "themeColors": ["#008C45", "#CD212A"],
-        "weatherImpact": {
-            "مشمس": 1,
-            "ماطر": 1.15,
-            "بارد": 1.04,
-            "حار": 1.02,
-            "متقلب": 1.17
-        },
-        "tireTypes": {
-            "soft": { "name": "سوفت", "speedFactor": 1.0, "degradationRate": "سريع" },
-            "medium": { "name": "ميديم", "speedFactor": 0.97, "degradationRate": "متوسط" },
-            "hard": { "name": "هارد", "speedFactor": 0.94, "degradationRate": "بطيء" },
-            "intermediate": { "name": "إنترمديت", "speedFactor": 0.90, "degradationRate": "مخصص للأمطار الخفيفة" },
-            "wet": { "name": "ويت", "speedFactor": 0.85, "degradationRate": "مخصص للأمطار الغزيرة" }
+        "weatherOptions": ["عادي", "مطر خفيف", "مطر غزير"],
+        "tires": {
+            "soft": { "speed": 1.00, "lifespan": 14, "wearRate": 0.95, "allowedWeather": ["عادي"] },
+            "medium": { "speed": 0.97, "lifespan": 26, "wearRate": 0.8, "allowedWeather": ["عادي"] },
+            "hard": { "speed": 0.94, "lifespan": 36, "wearRate": 0.65, "allowedWeather": ["عادي"] },
+            "intermediate": { "speed": 0.88, "lifespan": 19, "wearRate": 0.75, "allowedWeather": ["مطر خفيف"] },
+            "wet": { "speed": 0.83, "lifespan": 16, "wearRate": 0.7, "allowedWeather": ["مطر غزير"] }
         }
     },
     {
         "id": "spa",
-        "name": "حلبة سبا فرانكورشومب",
+        "name": "سبا فرانكورشومب",
         "country": "بلجيكا",
         "flag": "IMG/falgs/Belgium.svg",
-        "year": 1921,
+        "year": 1925,
         "length_km": 7.004,
         "laps": 44,
-        "tireDegradation": "عالي",
-        "avgLapTimeSec": 105,
-        "pitStopTimeSec": 24,
-        "weatherOptions": ["مشمس", "ماطر", "بارد", "حار", "متقلب"],
-        "themeColors": ["#000000", "#FFD700"],
-        "weatherImpact": {
-            "مشمس": 1,
-            "ماطر": 1.18,
-            "بارد": 1.05,
-            "حار": 1.03,
-            "متقلب": 1.20
-        },
-        "tireTypes": {
-            "soft": { "name": "سوفت", "speedFactor": 1.0, "degradationRate": "سريع" },
-            "medium": { "name": "ميديم", "speedFactor": 0.97, "degradationRate": "متوسط" },
-            "hard": { "name": "هارد", "speedFactor": 0.94, "degradationRate": "بطيء" },
-            "intermediate": { "name": "إنترمديت", "speedFactor": 0.90, "degradationRate": "مخصص للأمطار الخفيفة" },
-            "wet": { "name": "ويت", "speedFactor": 0.85, "degradationRate": "مخصص للأمطار الغزيرة" }
-        }
-    },
-    {
-        "id": "brazil",
-        "name": "حلبة البرازيل",
-        "country": "البرازيل",
-        "flag": "🇧🇷",
-        "year": 1940,
-        "length_km": 4.309,
-        "laps": 71,
-        "tireDegradation": "متوسط",
-        "avgLapTimeSec": 85,
-        "pitStopTimeSec": 20,
-        "weatherOptions": ["مشمس", "ماطر", "بارد", "حار", "متقلب"],
-        "themeColors": ["#009c3b", "#ffdf00"],
-        "weatherImpact": {
-            "مشمس": 1,
-            "ماطر": 1.14,
-            "بارد": 1.03,
-            "حار": 1.03,
-            "متقلب": 1.16
-        },
-        "tireTypes": {
-            "soft": { "name": "سوفت", "speedFactor": 1.0, "degradationRate": "سريع" },
-            "medium": { "name": "ميديم", "speedFactor": 0.97, "degradationRate": "متوسط" },
-            "hard": { "name": "هارد", "speedFactor": 0.94, "degradationRate": "بطيء" },
-            "intermediate": { "name": "إنترمديت", "speedFactor": 0.90, "degradationRate": "مخصص للأمطار الخفيفة" },
-            "wet": { "name": "ويت", "speedFactor": 0.85, "degradationRate": "مخصص للأمطار الغزيرة" }
+        "avgLapTimeSec": 100,
+        "estimatedStops": 2,
+        "themeColors": ["#ff2525", "#FFD700"],
+        "weatherOptions": ["عادي", "مطر خفيف", "مطر غزير"],
+        "tires": {
+            "soft": { "speed": 1.00, "lifespan": 11, "wearRate": 1.0, "allowedWeather": ["عادي"] },
+            "medium": { "speed": 0.96, "lifespan": 21, "wearRate": 0.85, "allowedWeather": ["عادي"] },
+            "hard": { "speed": 0.93, "lifespan": 32, "wearRate": 0.7, "allowedWeather": ["عادي"] },
+            "intermediate": { "speed": 0.87, "lifespan": 17, "wearRate": 0.78, "allowedWeather": ["مطر خفيف"] },
+            "wet": { "speed": 0.82, "lifespan": 15, "wearRate": 0.75, "allowedWeather": ["مطر غزير"] }
         }
     }
 ]
