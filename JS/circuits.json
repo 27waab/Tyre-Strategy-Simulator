@@ -1,0 +1,82 @@
+[
+    {
+        "id": "suzuka",
+        "name": "سوزوكا",
+        "country": "اليابان",
+        "flag": "IMG/falgs/Japan.svg",
+        "year": 1962,
+        "length_km": 5.807,
+        "laps": 53,
+        "avgLapTimeSec": 95,
+        "estimatedStops": 2,
+        "themeColors": ["#ffffff", "#bc002d"],
+        "weatherOptions": ["عادي", "مطر خفيف", "مطر غزير"],
+        "tires": {
+            "soft": { "speed": 1.00, "lifespan": 12, "wearRate": 1.0, "allowedWeather": ["عادي"] },
+            "medium": { "speed": 0.97, "lifespan": 20, "wearRate": 0.85, "allowedWeather": ["عادي"] },
+            "hard": { "speed": 0.94, "lifespan": 30, "wearRate": 0.7, "allowedWeather": ["عادي"] },
+            "intermediate": { "speed": 0.89, "lifespan": 18, "wearRate": 0.8, "allowedWeather": ["مطر خفيف"] },
+            "wet": { "speed": 0.85, "lifespan": 15, "wearRate": 0.75, "allowedWeather": ["مطر غزير"] }
+        }
+    },
+    {
+        "id": "jeddah",
+        "name": "جدة",
+        "country": "السعودية",
+        "flag": "IMG/falgs/Saudi_Arabia.svg",
+        "year": 2021,
+        "length_km": 6.174,
+        "laps": 50,
+        "avgLapTimeSec": 91,
+        "estimatedStops": 2,
+        "themeColors": ["#008000", "#ffffff"],
+        "weatherOptions": ["عادي", "مطر خفيف", "مطر غزير"],
+        "tires": {
+            "soft": { "speed": 1.00, "lifespan": 10, "wearRate": 1.0, "allowedWeather": ["عادي"] },
+            "medium": { "speed": 0.97, "lifespan": 18, "wearRate": 0.9, "allowedWeather": ["عادي"] },
+            "hard": { "speed": 0.94, "lifespan": 28, "wearRate": 0.75, "allowedWeather": ["عادي"] },
+            "intermediate": { "speed": 0.88, "lifespan": 16, "wearRate": 0.82, "allowedWeather": ["مطر خفيف"] },
+            "wet": { "speed": 0.84, "lifespan": 14, "wearRate": 0.78, "allowedWeather": ["مطر غزير"] }
+        }
+    },
+    {
+        "id": "monza",
+        "name": "مونزا",
+        "country": "إيطاليا",
+        "flag": "IMG/falgs/Italy.svg",
+        "year": 1922,
+        "length_km": 5.793,
+        "laps": 53,
+        "avgLapTimeSec": 82,
+        "estimatedStops": 1,
+        "themeColors": ["#008C45", "#CD212A"],
+        "weatherOptions": ["عادي", "مطر خفيف", "مطر غزير"],
+        "tires": {
+            "soft": { "speed": 1.00, "lifespan": 14, "wearRate": 0.95, "allowedWeather": ["عادي"] },
+            "medium": { "speed": 0.97, "lifespan": 26, "wearRate": 0.8, "allowedWeather": ["عادي"] },
+            "hard": { "speed": 0.94, "lifespan": 36, "wearRate": 0.65, "allowedWeather": ["عادي"] },
+            "intermediate": { "speed": 0.88, "lifespan": 19, "wearRate": 0.75, "allowedWeather": ["مطر خفيف"] },
+            "wet": { "speed": 0.83, "lifespan": 16, "wearRate": 0.7, "allowedWeather": ["مطر غزير"] }
+        }
+    },
+    {
+        "id": "spa",
+        "name": "سبا فرانكورشومب",
+        "country": "بلجيكا",
+        "flag": "IMG/falgs/Belgium.svg",
+        "year": 1925,
+        "length_km": 7.004,
+        "laps": 44,
+        "avgLapTimeSec": 100,
+        "estimatedStops": 2,
+        "themeColors": ["#ff2525", "#FFD700"],
+        "weatherOptions": ["عادي", "مطر خفيف", "مطر غزير"],
+        "tires": {
+            "soft": { "speed": 1.00, "lifespan": 11, "wearRate": 1.0, "allowedWeather": ["عادي"] },
+            "medium": { "speed": 0.96, "lifespan": 21, "wearRate": 0.85, "allowedWeather": ["عادي"] },
+            "hard": { "speed": 0.93, "lifespan": 32, "wearRate": 0.7, "allowedWeather": ["عادي"] },
+            "intermediate": { "speed": 0.87, "lifespan": 17, "wearRate": 0.78, "allowedWeather": ["مطر خفيف"] },
+            "wet": { "speed": 0.82, "lifespan": 15, "wearRate": 0.75, "allowedWeather": ["مطر غزير"] }
+        }
+    }
+]
