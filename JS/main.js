@@ -9,8 +9,8 @@ myReq.onload = function () {
             jsData.forEach(e => {
                 const boxDiv = document.createElement("div");
                 boxDiv.classList.add("boxOfCircuts");
-                boxDiv.dataset.circuts = e.id;
                 boxDiv.innerHTML = `
+                    <section data-circutname="${e.id}"></section>
                     <div class="before-color" style="background-color: ${e.themeColors[0]};"></div>
                     <div class="after-color" style="background-color: ${e.themeColors[1]};"></div>
                     <div class="box">
@@ -36,3 +36,10 @@ myReq.onerror = function() {
     console.error("Request error");
 };
 myReq.send();
+
+allCircuts.onclick = (event) => {
+    if (event.target.tagName === "SECTION") {
+        window.localStorage.setItem("nameOfCircut", event.target.dataset.circutname);
+        window.location.href = "../start.html";
+    }
+}
