@@ -40,6 +40,6 @@ myReq.send();
 allCircuts.onclick = (event) => {
     if (event.target.tagName === "SECTION") {
         window.localStorage.setItem("nameOfCircut", event.target.dataset.circutname);
-        window.location.href = "start.html";
+        window.location.href = "../start.html";
     }
 }
