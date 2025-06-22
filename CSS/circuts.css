@@ -12,22 +12,43 @@
 body {
     background-color: #000;
 }
-.content {
-    z-index: 1;
-    color: #fff;
-    position: relative;
-    padding: 30px 20px;
+@media (min-width: 768px) {
+    .container {
+        width: 750px;
+    }
+}
+.container {
+    padding-left: 15px;
+    padding-right: 15px;
+    margin-left: auto;
+    margin-right: auto;
     text-align: right;
+    color: #fff;
+}
+@media (min-width: 992px) {
+    .container {
+        width: 970px;
+    }
+}
+@media (min-width: 1200px) {
+    .container {
+        width: 1170px;
+    }
+}
+.header {
+    margin-top: 20px;
 }
 .circuts {
     margin-top: 20px;
     display: grid;
     grid-template-columns: repeat(auto-fill, minmax(320px, 1fr));
     gap: 20px;
+    padding-bottom: 40px;
 }
 .boxOfCircuts {
     position: relative;
     cursor: pointer;
+    overflow: hidden;
 }
 .boxOfCircuts .box {
     width: 100%;
@@ -66,4 +87,11 @@ body {
 }
 .boxOfCircuts .box .info {
     color: #999;
+}
+.boxOfCircuts section {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background-color: transparent;
+    z-index: 1;
 }
